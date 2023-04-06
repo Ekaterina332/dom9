@@ -10,7 +10,7 @@ Console.Clear();
 string OutPutNumber(int Number, int b)
 {
     if (b >= Number) return b.ToString();
-    else return OutPutNumber(Number, b + 1) + ", " + b.ToString();
+    return OutPutNumber(Number, b + 1) + ", " + b.ToString();
 }
 
 Console.Write("Введите число: ");
